@@ -34,7 +34,8 @@
 <img src="https://img.shields.io/badge/Grafana-FFFFFF?style=for-the-badge&logo=grafana&logoColor=F46800"/><br>
 
 ## 프로젝트
-### 🎮 Survival 프로젝트 (3인칭 생존 게임)
+### 🌳 Survival 프로젝트 (3인칭 생존 게임)
+---
 **개요**
 - 장르: 3인칭 서바이벌 어드벤처 (TPS 요소 포함)
 - 엔진: Unity Engine 6000.0.04f1
@@ -71,3 +72,40 @@
     - 🎯 문제: 초기에는 개발 순서와 우선순위가 명확하지 않아 흐름이 중간에 끊어졌음  
     - ✅ 해결: 이후 GitHub Projects의 시각적 도구를 도입해 작업을 체계적으로 정리하기 시작함
 
+🔗 [GitHub Repository](https://github.com/suunhwa/survival-game)
+<br/>
+<br/>
+### 📊 PLC 대시보드 프로젝트
+---
+#### 개요
+PLC 이더넷 포트를 통해 수신한 실시간 데이터를 시각화하고, 웹 기반 대시보드에서 다양한 그래프와 UI로 표현하는 시스템을 구현했습니다.
+- 기간: 2022.12
+- 인원 구성: 3명 
+- 역할:  프론트엔드 구조 설계, 실시간 데이터 시각화, 인증 및 페이지 구성 등
+
+#### 주요 기술 스택
+- 프론트엔드: Vue.js, three.js, Bootstrap
+- 백엔드: Node.js, Express
+- 데이터베이스: PostgreSQL
+- 데이터 시각화: Grafana
+- 통신 프로토콜: MQTT
+- 기타: Docker, Flexing Edukit (PLC 장비)
+
+#### 주요 기능 및 역할
+1. 프론트엔드 구조 설계 및 구현
+    - Vue.js를 사용해 대시보드 레이아웃 구성
+    - 실시간 데이터 조회, 차트/그래프 UI 구성
+
+2. Grafana 연동 시각화 대시보드 구성
+    - 다양한 그래프를 이용해 실시간 수집 데이터를 시각화
+    - 백엔드와 연동해 시스템 데이터를 정확하고 직관적으로 표시되도록 구성
+
+3. 사용자 인증 및 권한 시스템
+    - JWT 기반 로그인 / 회원가입 기능 구현
+    - 권한에 따라 가능한 기능 제한
+
+4. PLC 데이터 수신 및 처리
+    - C# 기반 Ethernet 수신 프로그램과 연동
+    - Node.js 서버로 데이터를 전달하고 실시간 반영
+
+🔗 [GitHub Repository](https://github.com/suunhwa/smart_factory)
